@@ -1,0 +1,48 @@
+/* -------------------- GENERAL STYLES -------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #212329;
+    background-color: #E5E5E5;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #C61B09;
+    cursor: pointer;
+}
+
+a p {
+    margin-bottom: 0;
+}
+
+.background-color-black {
+    background-color: #212329;
+}
+
+.background-color-orange {
+    background-color: #FF9C00;
+}
+
+.color-orange {
+    color: #FF9C00;
+}
+
+.color-red {
+    color: #C61B09;
+}
+
+/* -------------------- NAV STYLES -------------------------- */
+
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
