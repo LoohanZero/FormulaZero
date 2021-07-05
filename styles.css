@@ -46,3 +46,38 @@ a p {
     padding-bottom: 1rem;
 }
 
+/* -------------------- HEADER STYLES -------------------------- */
+
+.header-image {
+    width: 100%;
+    object-fit: cover;
+}
+    
+.header-temporada-container {
+    position: absolute;
+    max-width: 450px;
+    padding: 2rem;
+    bottom: -12%;
+    right: 5%;
+}
+    
+.header-link {
+    font-family: 'Josefin Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-link p {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+/* -------------------- HEADER RESPONSIVE -------------------------- */
+
+@media (max-width: 576px) {
+    
+    .header-temporada-container {
+        max-width: 100%;
+        width: 100%;
+        padding: 2rem;
+        position: static;
+    }
+}
