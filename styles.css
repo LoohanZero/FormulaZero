@@ -81,3 +81,9 @@ a p {
         position: static;
     }
 }
+
+/* -------------------- ABOUT US STYLES -------------------------- */
+
+.about-us-link {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
