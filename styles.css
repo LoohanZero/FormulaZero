@@ -104,7 +104,7 @@ a p {
     position: absolute;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    bottom: -15px; 
+    bottom: -65px; 
     right: 50px;
 }
 
@@ -121,3 +121,5 @@ a p {
         position: static;
     }
 }
+
+
