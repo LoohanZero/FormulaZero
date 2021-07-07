@@ -122,4 +122,22 @@ a p {
     }
 }
 
+/* -------------------- WHO WE ARE STYLES -------------------------- */
+
+.who-we-are-image {
+    transform: translate(30%, -35%);
+    object-fit: fit-content;
+}
+
+/* -------------------- WHO WE ARE RESPONSIVE -------------------------- */
+
+@media (max-width: 768px) {
+    .who-we-are-image {
+        transform: translate(50%, -15%);
+        width: 75%;
+    }
+}
+
+/* -------------------- LEARNING STYLES -------------------------- */
+
 
