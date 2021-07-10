@@ -1,3 +1,6 @@
+// CAROUSEL
+
+
 $(document).ready(function(){
     $('.carousel').slick({
         autoplay: true,
@@ -18,3 +21,7 @@ $(document).ready(function(){
         ]
     });
   });
+
+  // COPYRIGHT
+
+  document.querySelector('#copyright-year').innerText = new Date().getFullYear();
