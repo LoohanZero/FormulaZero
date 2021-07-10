@@ -188,3 +188,32 @@ a p {
         width: 100% !important;
     }
 }
+
+/* -------------------- OTHER PURPOSES STYLES -------------------------- */
+
+.carousel-slide {
+    max-width: 500px;
+    width: 100%;
+    min-width: 500px;
+}
+
+.carousel-image {
+    min-height: 300px;
+    object-fit: cover;
+}
+
+
+/* -------------------- OTHER PURPOSES RESPONSIVE -------------------------- */
+
+@media (max-width: 768px) {
+    .carousel-slide {
+        max-width: 400px;
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .carousel-image {
+        min-height: 200px;
+        object-fit: cover;
+    }
+}
