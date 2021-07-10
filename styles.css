@@ -131,11 +131,9 @@ a p {
 
 /* -------------------- WHO WE ARE RESPONSIVE -------------------------- */
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
     .who-we-are-image {
         transform: translate(30%, -35%);
-        object-fit: fit-content;
-      
     }
 }
 
@@ -147,6 +145,46 @@ a p {
 }
 
 /* -------------------- LEARNING STYLES -------------------------- */
+.learning-image {
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.learning-info-container {
+    transform: translate(50%, 40%);
+}
+.learning-icon-container {
+    width: 50px;
+    height: 50px;
+    padding: 2rem;
+}
+
+.learning-icon {
+    width: 20px;
+    height: 20px;
+}
 
 
+/* -------------------- LEARNING RESPONSIVE -------------------------- */
 
+@media (max-width: 992px) {
+    .learning-info-container {
+        transform: translate(50%, 25%);
+    }
+}
+
+@media (max-width: 768px) {
+    .learning-info-container.w-75 {
+        transform: translate(50%, -35%);
+        width: 95% !important;
+    }
+
+    .learning-icon-container {
+        width: 40px;
+        height: 40px;
+    }
+
+    .learning-info-container .learning-text-container.background-color-orange{
+        width: 100% !important;
+    }
+}
