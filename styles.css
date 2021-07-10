@@ -125,11 +125,19 @@ a p {
 /* -------------------- WHO WE ARE STYLES -------------------------- */
 
 .who-we-are-image {
-    transform: translate(30%, -35%);
+    transform: translate(10%, -50%);
     object-fit: fit-content;
 }
 
 /* -------------------- WHO WE ARE RESPONSIVE -------------------------- */
+
+@media (max-width: 1000px) {
+    .who-we-are-image {
+        transform: translate(30%, -35%);
+        object-fit: fit-content;
+      
+    }
+}
 
 @media (max-width: 768px) {
     .who-we-are-image {
@@ -139,5 +147,6 @@ a p {
 }
 
 /* -------------------- LEARNING STYLES -------------------------- */
+
 
 
